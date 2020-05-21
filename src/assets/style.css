@@ -1,0 +1,10 @@
+body {
+  background: rgb(49,193,210);
+  background: linear-gradient(148deg, rgba(49,193,210,1) 0%, rgba(112,112,201,1) 55%);
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 800;
+}
