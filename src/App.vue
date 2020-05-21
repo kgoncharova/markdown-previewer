@@ -16,7 +16,7 @@
       </div>
       <div class="col-md-6">
         <h4 class="text-light">Preview</h4>
-        <div class="info">
+        <div class="info" v-markdown :key="markdown">
           {{ markdown }}
         </div>
       </div>
@@ -39,10 +39,11 @@ export default {
 <style scoped>
 textarea {
   resize: none;
-  border: 2px dashed orange;
+  border: 3px dashed orange;
   outline: none;
 }
 .info {
+  padding: 20px;
   height: 400px;
   width: 100%;
   border-radius: 5px;
