@@ -1,4 +1,5 @@
 # markdown-previewer
+A simple markdown previewer with Vue.js
 
 ## Project setup
 ```
